@@ -31,6 +31,7 @@
             fetch('https://flagcdn.com/en/codes.json')
                 .then((response) => { return response.json() })
                 .then((result) => data(result, name))
+                
         }
         function data(result, name) {
             name = name.toLowerCase()
